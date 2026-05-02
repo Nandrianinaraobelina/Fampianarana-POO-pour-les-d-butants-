@@ -24,6 +24,6 @@ class Personne{
 }
 void main()
 {
-  var o = Personne.normal("nandrianina");
+  var o = Personne.normal("nandrianina",24);
   o.speaking();
 }
