@@ -65,7 +65,7 @@ class EquationSecondDegre {
 
   EquationSecondDegre(this.a, this.b, this.c) {
     if (a == 0) {
-      throw Exception("Ce n'est pas une équation du 2nd degré !");
+      throw Exception("Ce n'est pas une équation du 2nd degré hahaha!");
     }
   }
 
