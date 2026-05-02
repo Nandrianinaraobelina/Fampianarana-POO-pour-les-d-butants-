@@ -15,7 +15,7 @@ class Personne{
   }
 
     set age(int value){
-      if (value > age) {
+      if (value >= 0) {
         _age = value;
       }
       else {
@@ -23,17 +23,17 @@ class Personne{
       }
     }
   void afficher(){
-      print("Mon nom est: $nom et j'ai $age ans");
+    if(_age < 0){
+      print("age error");
+    }
+    else {
+        print("Mon nom est: $_nom et j'ai $age ans");
+    }
   }
 }
 void main()
 {
-    var perso = Personne("Nandrianina",-24);
-    perso.afficher();
-    perso.age = -5;
-    print(perso.age);
-
-    perso.age = 34; //marina izy raha ato 
-
+    var perso = Personne("Nandrianina",24);
+    //perso.age = 34; //marina izy raha ato 
     perso.afficher();  //okok
 }
