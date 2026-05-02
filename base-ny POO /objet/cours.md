@@ -5,4 +5,13 @@
                                                                     -attributs (données) => couleur,nom,numero plaque
                                                                     -methode (actions)   => demarrer() , accelerer()
 
-                                                                    
+
+
+    ZAVATRA MILA AHY IZANY RAHA POO : 
+                                        Classe = modèle
+                                        Objet = utilisation
+                                        Constructeur = créer vite
+                                        Encapsulation = protéger
+                                        Héritage = réutiliser
+                                        Polymorphisme = adapter
+                                        Abstraction = simplifier

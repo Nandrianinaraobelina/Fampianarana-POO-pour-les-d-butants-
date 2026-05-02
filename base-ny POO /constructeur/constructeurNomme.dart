@@ -3,7 +3,6 @@
                               //         par nommé  : var p = nomClass.nomConstructeur()
 
 
-
 class Personne{
   String name ="";
   int age = 0;
