@@ -1,11 +1,10 @@
 class Personne{
   String _nom;
   int _age;
+
+  
   //eto ny constructeur
-
-
   //Personne(this._nom ,int age) : _age = (age >= 0) ? age : 0;  //eto condition mi verifie hoe negative sa positive
-
   Personne(this._nom ,this._age);
 
   //miditra getter : LECTURE
@@ -27,7 +26,7 @@ class Personne{
       }
     }
 
-    
+
   void afficher(){
     if(_age < 0){
       print("age error");
