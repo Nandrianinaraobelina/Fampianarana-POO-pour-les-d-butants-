@@ -36,7 +36,7 @@ class CompteBanquaire{
   }
 }
 void main(){
-    var volaAlaina = CompteBanquaire(00);
+    var volaAlaina = CompteBanquaire(1000);
 
     print("solde ao @Compte:  ${volaAlaina.solde}");
 
