@@ -1,3 +1,0 @@
-class Personne{
-  String nom;
-}
