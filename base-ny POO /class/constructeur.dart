@@ -14,7 +14,7 @@ class Personne{
   }
 }
 void main(){
-  //fomba taloha
+  //fomba taloha @constructeur
   
   /*Personne p = new Personne();
   p.nom = "Nandrianina";
