@@ -43,4 +43,10 @@ class Boeuf extends Animal{
 void main(){
     Animal a = Animal("boby");
     a.manger();
+
+    Chat c = Chat("Piso");
+    c.manger();
+
+    Boeuf b = Boeuf("Ngilo");
+    b.manger();
 }
