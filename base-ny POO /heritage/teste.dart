@@ -28,7 +28,6 @@ class Animal{
       print("sans caracterers");
     }
   }
-
   void manger(){
     print("Mon $nom est manger");
   }
@@ -59,21 +58,31 @@ class Boeuf extends Animal{
   }
 
 void main(){
+
+    print("----------------");
     Chien ch = Chien("boby");
     ch.manger();
     ch.mivovo();
+
+    print("----------------");
 
     Chat c = Chat("Piso");
     c.manger();
     c.miammm();
 
+     print("----------------");
+
     Boeuf b = Boeuf("Ngilo");
     b.manger();
     b.hummm();
+
+     print("----------------");
     
     //eo @ilay encapsulation
     c.nom = "sasa";
-    c.nom = "" //miatra le set any ambiony rah vide ity
+    c.nom = ""; //miatra le set any ambiony rah vide ity
     c.manger();
+
+     print("----------------");
 
 }
