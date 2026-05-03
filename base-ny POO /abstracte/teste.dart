@@ -25,18 +25,23 @@ abstract class FitateranaAndalambe{
         print("Pas de couleur");
       }
     }
-
-    void demarrer(){
+//sans abstract
+    /*void demarrer(){
       print("Anarany Fitaterana : $nom , Ny lokony $couleur");
-    }
+    }*/
+
+//raha misy abstract
+    void demarrer();
 }
+
+
 class Sprinter extends FitateranaAndalambe{
   Sprinter(String nom, String couleur) : super(nom,couleur){
     print("");
   }
   @override
   void demarrer(){
-    super.demarrer(); //antsoina le parent de mi affiche le ao @methode parents
+  //  super.demarrer();   //antsoina le parent de mi affiche le ao @methode parents  //tsy ampesina instony rhf misy abstract
     print("Velomina @ bouton");
   }
 }
@@ -46,7 +51,7 @@ class Moto extends FitateranaAndalambe{
   } 
   @override
   void demarrer(){
-    super.demarrer(); //antsoina le parent de mi affiche le ao @methode parents
+    //super.demarrer();    //antsoina le parent de mi affiche le ao @methode parents  //tsy ampesina instony rhf misy abstract
     print("Par clé vao mandeha");
   }
 }
